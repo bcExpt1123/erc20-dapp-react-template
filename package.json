@@ -22,6 +22,24 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "keywords": [
+    "erc20",
+    "erc-20",
+    "erc20-token",
+    "erc20-dapp",
+    "erc20-dapp-faucet",
+    "erc20-dapp-react",
+    "erc20-dapp-react-typescript",
+    "erc20-dapp-react-faucet",
+    "erc20-dapp-react-typescrpit-faucet",
+    "hardhat",
+    "ethers",
+    "erc20-hardhat",
+    "hardhat-waffle",
+    "ethereum-waffle",
+    "erc20-waffle",
+    "erc20-hardhat-ethers"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
