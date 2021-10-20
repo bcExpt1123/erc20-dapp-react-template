@@ -40,7 +40,7 @@ export const TokenSend: FC<any> = (props: any): ReactElement => {
     <Card style={{ background: "rgba(227, 104, 222, 0.71)" }}>
       <Card.Body>
         <Card.Subtitle>
-          Send faucet to an address
+          Send FCT to an Address
         </Card.Subtitle>
         <br></br>
         <div className="d-grid gap-2 text-left">
@@ -50,7 +50,7 @@ export const TokenSend: FC<any> = (props: any): ReactElement => {
               <Form.Control type="text" placeholder="Payee 0x address" onChange={e => setUserAccount(e.target.value)} />
             </Form.Group>
             <Form.Group className="mb-3" controlId="amount">
-              <Form.Label>Amount</Form.Label>
+              <Form.Label>FCT Amount</Form.Label>
               <Form.Control type="text" placeholder="Amount" onChange={e => setAmount(e.target.value)} />
             </Form.Group>
           </Form>
