@@ -35,7 +35,8 @@
     "accounts": "hardhat accounts",
     "clean": "hardhat clean",
     "hardhat:test": "hardhat test",
-    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:ropsten": "hardhat run scripts/deploy.js --network ropsten"
   },
   "keywords": [
     "erc20",

@@ -8,8 +8,13 @@ async function main() {
     deployer.address
   );
 
+  console.log(
+    "Account balance:",
+    (await deployer.getBalance()).toString()
+  );
+
   const FCTToken = await hre.ethers.getContractFactory("FCTToken");
-  const fctToken = await FCTToken.deploy("FCTToken", "TKN");
+  const fctToken = await FCTToken.deploy("FCTToken", "FCT");
 
   await fctToken.deployed();
 
