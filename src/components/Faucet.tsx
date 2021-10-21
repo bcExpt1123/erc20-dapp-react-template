@@ -3,9 +3,7 @@ import { ethers } from 'ethers'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Message from './Message';
-
-// deployed address
-const tokenAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+import { tokenAddress } from '../constants';
 
 const Faucet = (props: any) => {
 

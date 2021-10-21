@@ -30,9 +30,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "hardhat:node": "hardhat node",
-    "hardhat:compile": "hardhat compile",
-    "hardhat:deploy:local": "hardhat run scripts/deploy.js --network localhost"
+    "hardhat": "hardhat node",
+    "compile": "hardhat compile",
+    "accounts": "hardhat accounts",
+    "clean": "hardhat clean",
+    "hardhat:test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
   },
   "keywords": [
     "erc20",

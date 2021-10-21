@@ -16,15 +16,14 @@ function App() {
   const Token = FCTToken;
   return (
     <div className="App">
-      <Container>
-        <Row className="justify-content-md-center">
-          <Col lg={6} md={6} sm={12} className='my-3'>
-            <Faucet tokenContract={Token} />
-          </Col>
-          <Col lg={6} md={6} sm={12} className='my-3'>
-            <TokenSend tokenContract={Token} />
-          </Col>
-        </Row>
+      <h1 className='text-center mb-4'>
+        FCT(Faucet Token)
+      </h1>
+      <Container style={{maxWidth: 756}}>
+        <Faucet tokenContract={Token} />
+        <br />
+        <br />
+        <TokenSend tokenContract={Token} />
       </Container>
     </div>
   );

@@ -5,8 +5,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { FC, ReactElement } from 'react-transition-group/node_modules/@types/react';
 import { Alert, Form } from 'react-bootstrap';
-
-const tokenAddress = "{YOUR DEPLOYED TOKEN ADDRESS}"
+import { tokenAddress } from '../constants';
 
 export const TokenSend: FC<any> = (props: any): ReactElement => {
 
@@ -50,7 +49,7 @@ export const TokenSend: FC<any> = (props: any): ReactElement => {
               <Form.Control type="text" placeholder="Payee 0x address" onChange={e => setUserAccount(e.target.value)} />
             </Form.Group>
             <Form.Group className="mb-3" controlId="amount">
-              <Form.Label>FCT Amount</Form.Label>
+              <Form.Label>FCT Amount(wei)</Form.Label>
               <Form.Control type="text" placeholder="Amount" onChange={e => setAmount(e.target.value)} />
             </Form.Group>
           </Form>
