@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+ An ERC20 token Faucet on the Ropsten Testnet 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+<!-- [Live Demo](https://60b43852a834858831d84c15--inspiring-liskov-361eb4.netlify.app/) -->
 
-Try running some of the following tasks:
+<!-- <img src="https://i.ibb.co/LgrnGRT/Screenshot-2021-05-31-at-12-25-38.png" alt="Screenshot-2021-05-31-at-12-25-38" border="0"> -->
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+This Dapp allows users to receive 100 FCT on the Ropsten test net and to send FCT to other addresses. 
+
+Having an erc20 faucet can be very useful for testing your Dapp, so I decided to make one.
+
+It uses **hardhat**, **ethers**, **openzeppelin-contracts**,**react** and **bootstrap-react**, this is a powerful stack, and in this simple project shows some design patterns that can be expanded and explored to build powerful apps whilst creating powerful UI components fast. 
+
+**Contract Address** *0x08D58f41f09De47D2bd9fB66Dda04423bf6139bB*
