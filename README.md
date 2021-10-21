@@ -1,10 +1,5 @@
  An ERC20 token Faucet on the Ropsten Testnet 
 
-<!-- [Live Demo](https://60b43852a834858831d84c15--inspiring-liskov-361eb4.netlify.app/) -->
-
-
-<img src="https://prnt.sc/1wyxu8a" alt="Screenshot-2021-05-31-at-12-25-38" border="0">
-
 This Dapp allows users to receive 100 FCT on the Ropsten test net and to send FCT to other addresses. 
 
 Having an erc20 faucet can be very useful for testing your Dapp, so I decided to make one.
