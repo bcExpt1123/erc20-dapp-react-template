@@ -42,6 +42,7 @@
     "erc-20",
     "erc20-token",
     "erc20-dapp",
+    "erc20-dapp-example",
     "erc20-dapp-faucet",
     "erc20-dapp-react",
     "erc20-dapp-react-typescript",
