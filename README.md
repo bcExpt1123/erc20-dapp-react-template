@@ -6,4 +6,4 @@ Having an erc20 faucet can be very useful for testing your Dapp, so I decided to
 
 It uses **hardhat**, **ethers**, **openzeppelin-contracts**,**react** and **bootstrap-react**, this is a powerful stack, and in this simple project shows some design patterns that can be expanded and explored to build powerful apps whilst creating powerful UI components fast. 
 
-**Contract Address** *0x08D58f41f09De47D2bd9fB66Dda04423bf6139bB*
+**Contract Address** *0x89aF3bf4ED8E39D6c5Ae82ad74EDf9DEd34830A6*
