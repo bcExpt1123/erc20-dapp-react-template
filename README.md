@@ -1,4 +1,4 @@
- An ERC20 token Faucet on the Ropsten Testnet 
+# An ERC20 token Faucet on the Ropsten Testnet 
 
 This Dapp allows users to receive 100 FCT on the Ropsten test net and to send FCT to other addresses. 
 
